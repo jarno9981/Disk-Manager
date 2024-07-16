@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "DiskManager (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "DiskManager (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

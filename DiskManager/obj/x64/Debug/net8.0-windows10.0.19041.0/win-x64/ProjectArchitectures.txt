@@ -1,0 +1,1 @@
+C:\Users\JPJM-\source\repos\DiskManager\DiskManager\DiskManager.csproj;x64

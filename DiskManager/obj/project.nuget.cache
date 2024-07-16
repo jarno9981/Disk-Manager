@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "oOGNXUd/A6U=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\JPJM-\\source\\repos\\DiskManager\\DiskManager\\DiskManager.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\JPJM-\\.nuget\\packages\\microsoft.windows.sdk.buildtools\\10.0.22621.756\\microsoft.windows.sdk.buildtools.10.0.22621.756.nupkg.sha512",
+    "C:\\Users\\JPJM-\\.nuget\\packages\\microsoft.windowsappsdk\\1.5.240627000\\microsoft.windowsappsdk.1.5.240627000.nupkg.sha512",
+    "C:\\Users\\JPJM-\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.19041.31\\microsoft.windows.sdk.net.ref.10.0.19041.31.nupkg.sha512",
+    "C:\\Users\\JPJM-\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x86\\8.0.5\\microsoft.aspnetcore.app.runtime.win-x86.8.0.5.nupkg.sha512",
+    "C:\\Users\\JPJM-\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\8.0.5\\microsoft.aspnetcore.app.runtime.win-x64.8.0.5.nupkg.sha512",
+    "C:\\Users\\JPJM-\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-arm64\\8.0.5\\microsoft.windowsdesktop.app.runtime.win-arm64.8.0.5.nupkg.sha512",
+    "C:\\Users\\JPJM-\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\8.0.5\\microsoft.windowsdesktop.app.runtime.win-x64.8.0.5.nupkg.sha512",
+    "C:\\Users\\JPJM-\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-arm64\\8.0.5\\microsoft.aspnetcore.app.runtime.win-arm64.8.0.5.nupkg.sha512",
+    "C:\\Users\\JPJM-\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x86\\8.0.5\\microsoft.windowsdesktop.app.runtime.win-x86.8.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}
