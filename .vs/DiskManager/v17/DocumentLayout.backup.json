@@ -1,30 +1,74 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\JPJM-\\source\\repos\\DiskManager\\",
+  "WorkspaceRootPath": "X:\\source\\DiskManager\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3C4B9EBF-FC6D-47B7-B2D9-F08332E93D90}|DiskManager\\DiskManager.csproj|c:\\users\\jpjm-\\source\\repos\\diskmanager\\diskmanager\\mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{3C4B9EBF-FC6D-47B7-B2D9-F08332E93D90}|DiskManager\\DiskManager.csproj|solutionrelative:diskmanager\\mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+      "AbsoluteMoniker": "D:0:0:{39F896B5-581A-4140-8153-71B8255FCEE4}|DiskManager\\DiskManager.csproj|x:\\source\\diskmanager\\diskmanager\\views\\formatdrivepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{39F896B5-581A-4140-8153-71B8255FCEE4}|DiskManager\\DiskManager.csproj|solutionrelative:diskmanager\\views\\formatdrivepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C4B9EBF-FC6D-47B7-B2D9-F08332E93D90}|DiskManager\\DiskManager.csproj|c:\\users\\jpjm-\\source\\repos\\diskmanager\\diskmanager\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{3C4B9EBF-FC6D-47B7-B2D9-F08332E93D90}|DiskManager\\DiskManager.csproj|solutionrelative:diskmanager\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{39F896B5-581A-4140-8153-71B8255FCEE4}|DiskManager\\DiskManager.csproj|x:\\source\\diskmanager\\diskmanager\\views\\cleandrivepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{39F896B5-581A-4140-8153-71B8255FCEE4}|DiskManager\\DiskManager.csproj|solutionrelative:diskmanager\\views\\cleandrivepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C4B9EBF-FC6D-47B7-B2D9-F08332E93D90}|DiskManager\\DiskManager.csproj|c:\\users\\jpjm-\\source\\repos\\diskmanager\\diskmanager\\package.appxmanifest||{4D47164B-07B6-4A52-A855-728D6A2E2AA3}|Code",
-      "RelativeMoniker": "D:0:0:{3C4B9EBF-FC6D-47B7-B2D9-F08332E93D90}|DiskManager\\DiskManager.csproj|solutionrelative:diskmanager\\package.appxmanifest||{4D47164B-07B6-4A52-A855-728D6A2E2AA3}|Code"
+      "AbsoluteMoniker": "D:0:0:{39F896B5-581A-4140-8153-71B8255FCEE4}|DiskManager\\DiskManager.csproj|x:\\source\\diskmanager\\diskmanager\\views\\diskpartition.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{39F896B5-581A-4140-8153-71B8255FCEE4}|DiskManager\\DiskManager.csproj|solutionrelative:diskmanager\\views\\diskpartition.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C4B9EBF-FC6D-47B7-B2D9-F08332E93D90}|DiskManager\\DiskManager.csproj|c:\\users\\jpjm-\\source\\repos\\diskmanager\\diskmanager\\app.manifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{3C4B9EBF-FC6D-47B7-B2D9-F08332E93D90}|DiskManager\\DiskManager.csproj|solutionrelative:diskmanager\\app.manifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{39F896B5-581A-4140-8153-71B8255FCEE4}|DiskManager\\DiskManager.csproj|x:\\source\\diskmanager\\diskmanager\\views\\formatdrivepage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{39F896B5-581A-4140-8153-71B8255FCEE4}|DiskManager\\DiskManager.csproj|solutionrelative:diskmanager\\views\\formatdrivepage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C4B9EBF-FC6D-47B7-B2D9-F08332E93D90}|DiskManager\\DiskManager.csproj|c:\\users\\jpjm-\\source\\repos\\diskmanager\\diskmanager\\helpers\\diskmanagerformatter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C4B9EBF-FC6D-47B7-B2D9-F08332E93D90}|DiskManager\\DiskManager.csproj|solutionrelative:diskmanager\\helpers\\diskmanagerformatter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{39F896B5-581A-4140-8153-71B8255FCEE4}|DiskManager\\DiskManager.csproj|x:\\source\\diskmanager\\diskmanager\\views\\cleandrivepage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{39F896B5-581A-4140-8153-71B8255FCEE4}|DiskManager\\DiskManager.csproj|solutionrelative:diskmanager\\views\\cleandrivepage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C4B9EBF-FC6D-47B7-B2D9-F08332E93D90}|DiskManager\\DiskManager.csproj|c:\\users\\jpjm-\\source\\repos\\diskmanager\\diskmanager\\helpers\\diskmanagercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C4B9EBF-FC6D-47B7-B2D9-F08332E93D90}|DiskManager\\DiskManager.csproj|solutionrelative:diskmanager\\helpers\\diskmanagercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{39F896B5-581A-4140-8153-71B8255FCEE4}|DiskManager\\DiskManager.csproj|x:\\source\\diskmanager\\diskmanager\\helpers\\diskinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39F896B5-581A-4140-8153-71B8255FCEE4}|DiskManager\\DiskManager.csproj|solutionrelative:diskmanager\\helpers\\diskinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39F896B5-581A-4140-8153-71B8255FCEE4}|DiskManager\\DiskManager.csproj|x:\\source\\diskmanager\\diskmanager\\helpers\\driveiconconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39F896B5-581A-4140-8153-71B8255FCEE4}|DiskManager\\DiskManager.csproj|solutionrelative:diskmanager\\helpers\\driveiconconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39F896B5-581A-4140-8153-71B8255FCEE4}|DiskManager\\DiskManager.csproj|x:\\source\\diskmanager\\diskmanager\\helpers\\diskmanagerformatter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39F896B5-581A-4140-8153-71B8255FCEE4}|DiskManager\\DiskManager.csproj|solutionrelative:diskmanager\\helpers\\diskmanagerformatter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|X:\\source\\DiskManager\\DiskManager\\obj\\x64\\Debug\\net8.0-windows10.0.22621.0\\win-x64\\Views\\FormatDrivePage.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DiskManager\\obj\\x64\\Debug\\net8.0-windows10.0.22621.0\\win-x64\\Views\\FormatDrivePage.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39F896B5-581A-4140-8153-71B8255FCEE4}|DiskManager\\DiskManager.csproj|x:\\source\\diskmanager\\diskmanager\\views\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{39F896B5-581A-4140-8153-71B8255FCEE4}|DiskManager\\DiskManager.csproj|solutionrelative:diskmanager\\views\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39F896B5-581A-4140-8153-71B8255FCEE4}|DiskManager\\DiskManager.csproj|x:\\source\\diskmanager\\diskmanager\\app.manifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{39F896B5-581A-4140-8153-71B8255FCEE4}|DiskManager\\DiskManager.csproj|solutionrelative:diskmanager\\app.manifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39F896B5-581A-4140-8153-71B8255FCEE4}|DiskManager\\DiskManager.csproj|x:\\source\\diskmanager\\diskmanager\\package.appxmanifest||{4D47164B-07B6-4A52-A855-728D6A2E2AA3}|Code",
+      "RelativeMoniker": "D:0:0:{39F896B5-581A-4140-8153-71B8255FCEE4}|DiskManager\\DiskManager.csproj|solutionrelative:diskmanager\\package.appxmanifest||{4D47164B-07B6-4A52-A855-728D6A2E2AA3}|Code"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39F896B5-581A-4140-8153-71B8255FCEE4}|DiskManager\\DiskManager.csproj|x:\\source\\diskmanager\\diskmanager\\assets\\navviewmenu\\appdata.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{39F896B5-581A-4140-8153-71B8255FCEE4}|DiskManager\\DiskManager.csproj|solutionrelative:diskmanager\\assets\\navviewmenu\\appdata.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39F896B5-581A-4140-8153-71B8255FCEE4}|DiskManager\\DiskManager.csproj|x:\\source\\diskmanager\\diskmanager\\views\\homelandingpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{39F896B5-581A-4140-8153-71B8255FCEE4}|DiskManager\\DiskManager.csproj|solutionrelative:diskmanager\\views\\homelandingpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39F896B5-581A-4140-8153-71B8255FCEE4}|DiskManager\\DiskManager.csproj|x:\\source\\diskmanager\\diskmanager\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{39F896B5-581A-4140-8153-71B8255FCEE4}|DiskManager\\DiskManager.csproj|solutionrelative:diskmanager\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39F896B5-581A-4140-8153-71B8255FCEE4}|DiskManager\\DiskManager.csproj|x:\\source\\diskmanager\\diskmanager\\helpers\\diskmanagercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39F896B5-581A-4140-8153-71B8255FCEE4}|DiskManager\\DiskManager.csproj|solutionrelative:diskmanager\\helpers\\diskmanagercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39F896B5-581A-4140-8153-71B8255FCEE4}|DiskManager\\DiskManager.csproj|x:\\source\\diskmanager\\diskmanager\\helpers\\diskmanagerpartitions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39F896B5-581A-4140-8153-71B8255FCEE4}|DiskManager\\DiskManager.csproj|solutionrelative:diskmanager\\helpers\\diskmanagerpartitions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +78,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,78 +94,217 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Package.appxmanifest",
-              "DocumentMoniker": "C:\\Users\\JPJM-\\source\\repos\\DiskManager\\DiskManager\\Package.appxmanifest",
-              "RelativeDocumentMoniker": "DiskManager\\Package.appxmanifest",
-              "ToolTip": "C:\\Users\\JPJM-\\source\\repos\\DiskManager\\DiskManager\\Package.appxmanifest",
-              "RelativeToolTip": "DiskManager\\Package.appxmanifest",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAADEAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001793|",
-              "WhenOpened": "2024-07-15T19:23:38.356Z",
+              "DocumentIndex": 7,
+              "Title": "DiskManagerFormatter.cs",
+              "DocumentMoniker": "X:\\source\\DiskManager\\DiskManager\\Helpers\\DiskManagerFormatter.cs",
+              "RelativeDocumentMoniker": "DiskManager\\Helpers\\DiskManagerFormatter.cs",
+              "ToolTip": "X:\\source\\DiskManager\\DiskManager\\Helpers\\DiskManagerFormatter.cs",
+              "RelativeToolTip": "DiskManager\\Helpers\\DiskManagerFormatter.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAAAFsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T17:21:19.285Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "app.manifest",
-              "DocumentMoniker": "C:\\Users\\JPJM-\\source\\repos\\DiskManager\\DiskManager\\app.manifest",
-              "RelativeDocumentMoniker": "DiskManager\\app.manifest",
-              "ToolTip": "C:\\Users\\JPJM-\\source\\repos\\DiskManager\\DiskManager\\app.manifest",
-              "RelativeToolTip": "DiskManager\\app.manifest",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001203|",
-              "WhenOpened": "2024-07-15T19:12:58.519Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DiskManagerFormatter.cs",
-              "DocumentMoniker": "C:\\Users\\JPJM-\\source\\repos\\DiskManager\\DiskManager\\Helpers\\DiskManagerFormatter.cs",
-              "RelativeDocumentMoniker": "DiskManager\\Helpers\\DiskManagerFormatter.cs",
-              "ToolTip": "C:\\Users\\JPJM-\\source\\repos\\DiskManager\\DiskManager\\Helpers\\DiskManagerFormatter.cs",
-              "RelativeToolTip": "DiskManager\\Helpers\\DiskManagerFormatter.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAQwEIAAAA1AAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "DriveIconConverter.cs",
+              "DocumentMoniker": "X:\\source\\DiskManager\\DiskManager\\Helpers\\DriveIconConverter.cs",
+              "RelativeDocumentMoniker": "DiskManager\\Helpers\\DriveIconConverter.cs",
+              "ToolTip": "X:\\source\\DiskManager\\DiskManager\\Helpers\\DriveIconConverter.cs",
+              "RelativeToolTip": "DiskManager\\Helpers\\DriveIconConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-15T19:17:23.467Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DiskManagerController.cs",
-              "DocumentMoniker": "C:\\Users\\JPJM-\\source\\repos\\DiskManager\\DiskManager\\Helpers\\DiskManagerController.cs",
-              "RelativeDocumentMoniker": "DiskManager\\Helpers\\DiskManagerController.cs",
-              "ToolTip": "C:\\Users\\JPJM-\\source\\repos\\DiskManager\\DiskManager\\Helpers\\DiskManagerController.cs",
-              "RelativeToolTip": "DiskManager\\Helpers\\DiskManagerController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-15T19:17:15.469Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\JPJM-\\source\\repos\\DiskManager\\DiskManager\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "DiskManager\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\JPJM-\\source\\repos\\DiskManager\\DiskManager\\MainWindow.xaml.cs*",
-              "RelativeToolTip": "DiskManager\\MainWindow.xaml.cs*",
-              "ViewState": "AgIAAFgAAAAAAAAAAAAqwJAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-15T19:13:21.499Z",
+              "WhenOpened": "2024-07-17T20:16:05.727Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\JPJM-\\source\\repos\\DiskManager\\DiskManager\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "DiskManager\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\JPJM-\\source\\repos\\DiskManager\\DiskManager\\MainWindow.xaml",
-              "RelativeToolTip": "DiskManager\\MainWindow.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABSAAAAAAAAAA==",
+              "Title": "CleanDrivePage.xaml",
+              "DocumentMoniker": "X:\\source\\DiskManager\\DiskManager\\Views\\CleanDrivePage.xaml",
+              "RelativeDocumentMoniker": "DiskManager\\Views\\CleanDrivePage.xaml",
+              "ToolTip": "X:\\source\\DiskManager\\DiskManager\\Views\\CleanDrivePage.xaml",
+              "RelativeToolTip": "DiskManager\\Views\\CleanDrivePage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-07-15T19:12:54.714Z",
+              "WhenOpened": "2024-07-17T16:35:46.636Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CleanDrivePage.xaml.cs",
+              "DocumentMoniker": "X:\\source\\DiskManager\\DiskManager\\Views\\CleanDrivePage.xaml.cs",
+              "RelativeDocumentMoniker": "DiskManager\\Views\\CleanDrivePage.xaml.cs",
+              "ToolTip": "X:\\source\\DiskManager\\DiskManager\\Views\\CleanDrivePage.xaml.cs",
+              "RelativeToolTip": "DiskManager\\Views\\CleanDrivePage.xaml.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAUwF8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T17:25:10.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DiskInfo.cs",
+              "DocumentMoniker": "X:\\source\\DiskManager\\DiskManager\\Helpers\\DiskInfo.cs",
+              "RelativeDocumentMoniker": "DiskManager\\Helpers\\DiskInfo.cs",
+              "ToolTip": "X:\\source\\DiskManager\\DiskManager\\Helpers\\DiskInfo.cs",
+              "RelativeToolTip": "DiskManager\\Helpers\\DiskInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T20:18:01.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "X:\\source\\DiskManager\\DiskManager\\Views\\MainPage.xaml",
+              "RelativeDocumentMoniker": "DiskManager\\Views\\MainPage.xaml",
+              "ToolTip": "X:\\source\\DiskManager\\DiskManager\\Views\\MainPage.xaml",
+              "RelativeToolTip": "DiskManager\\Views\\MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-17T16:36:52.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DiskPartition.xaml",
+              "DocumentMoniker": "X:\\source\\DiskManager\\DiskManager\\Views\\DiskPartition.xaml",
+              "RelativeDocumentMoniker": "DiskManager\\Views\\DiskPartition.xaml",
+              "ToolTip": "X:\\source\\DiskManager\\DiskManager\\Views\\DiskPartition.xaml",
+              "RelativeToolTip": "DiskManager\\Views\\DiskPartition.xaml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACIAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-17T17:08:27.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormatDrivePage.xaml",
+              "DocumentMoniker": "X:\\source\\DiskManager\\DiskManager\\Views\\FormatDrivePage.xaml",
+              "RelativeDocumentMoniker": "DiskManager\\Views\\FormatDrivePage.xaml",
+              "ToolTip": "X:\\source\\DiskManager\\DiskManager\\Views\\FormatDrivePage.xaml*",
+              "RelativeToolTip": "DiskManager\\Views\\FormatDrivePage.xaml*",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwCAAAABtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-17T16:35:35.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormatDrivePage.xaml.cs",
+              "DocumentMoniker": "X:\\source\\DiskManager\\DiskManager\\Views\\FormatDrivePage.xaml.cs",
+              "RelativeDocumentMoniker": "DiskManager\\Views\\FormatDrivePage.xaml.cs",
+              "ToolTip": "X:\\source\\DiskManager\\DiskManager\\Views\\FormatDrivePage.xaml.cs",
+              "RelativeToolTip": "DiskManager\\Views\\FormatDrivePage.xaml.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAswDgAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T17:30:35.966Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AppData.json",
+              "DocumentMoniker": "X:\\source\\DiskManager\\DiskManager\\Assets\\NavViewMenu\\AppData.json",
+              "RelativeDocumentMoniker": "DiskManager\\Assets\\NavViewMenu\\AppData.json",
+              "ToolTip": "X:\\source\\DiskManager\\DiskManager\\Assets\\NavViewMenu\\AppData.json",
+              "RelativeToolTip": "DiskManager\\Assets\\NavViewMenu\\AppData.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-17T16:28:45.371Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FormatDrivePage.g.cs",
+              "DocumentMoniker": "X:\\source\\DiskManager\\DiskManager\\obj\\x64\\Debug\\net8.0-windows10.0.22621.0\\win-x64\\Views\\FormatDrivePage.g.cs",
+              "RelativeDocumentMoniker": "DiskManager\\obj\\x64\\Debug\\net8.0-windows10.0.22621.0\\win-x64\\Views\\FormatDrivePage.g.cs",
+              "ToolTip": "X:\\source\\DiskManager\\DiskManager\\obj\\x64\\Debug\\net8.0-windows10.0.22621.0\\win-x64\\Views\\FormatDrivePage.g.cs",
+              "RelativeToolTip": "DiskManager\\obj\\x64\\Debug\\net8.0-windows10.0.22621.0\\win-x64\\Views\\FormatDrivePage.g.cs",
+              "ViewState": "AgIAACsBAAAAAAAAAAAuwEgBAACXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T20:31:29.014Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "App.xaml",
+              "DocumentMoniker": "X:\\source\\DiskManager\\DiskManager\\App.xaml",
+              "RelativeDocumentMoniker": "DiskManager\\App.xaml",
+              "ToolTip": "X:\\source\\DiskManager\\DiskManager\\App.xaml",
+              "RelativeToolTip": "DiskManager\\App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-17T17:12:16.863Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DiskManagerController.cs",
+              "DocumentMoniker": "X:\\source\\DiskManager\\DiskManager\\Helpers\\DiskManagerController.cs",
+              "RelativeDocumentMoniker": "DiskManager\\Helpers\\DiskManagerController.cs",
+              "ToolTip": "X:\\source\\DiskManager\\DiskManager\\Helpers\\DiskManagerController.cs",
+              "RelativeToolTip": "DiskManager\\Helpers\\DiskManagerController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T17:21:00.027Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "app.manifest",
+              "DocumentMoniker": "X:\\source\\DiskManager\\DiskManager\\app.manifest",
+              "RelativeDocumentMoniker": "DiskManager\\app.manifest",
+              "ToolTip": "X:\\source\\DiskManager\\DiskManager\\app.manifest",
+              "RelativeToolTip": "DiskManager\\app.manifest",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001203|",
+              "WhenOpened": "2024-07-17T17:27:42.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Package.appxmanifest",
+              "DocumentMoniker": "X:\\source\\DiskManager\\DiskManager\\Package.appxmanifest",
+              "RelativeDocumentMoniker": "DiskManager\\Package.appxmanifest",
+              "ToolTip": "X:\\source\\DiskManager\\DiskManager\\Package.appxmanifest",
+              "RelativeToolTip": "DiskManager\\Package.appxmanifest",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001793|",
+              "WhenOpened": "2024-07-17T17:27:37.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "HomeLandingPage.xaml",
+              "DocumentMoniker": "X:\\source\\DiskManager\\DiskManager\\Views\\HomeLandingPage.xaml",
+              "RelativeDocumentMoniker": "DiskManager\\Views\\HomeLandingPage.xaml",
+              "ToolTip": "X:\\source\\DiskManager\\DiskManager\\Views\\HomeLandingPage.xaml",
+              "RelativeToolTip": "DiskManager\\Views\\HomeLandingPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-17T16:26:09.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DiskManagerPartitions.cs",
+              "DocumentMoniker": "X:\\source\\DiskManager\\DiskManager\\Helpers\\DiskManagerPartitions.cs",
+              "RelativeDocumentMoniker": "DiskManager\\Helpers\\DiskManagerPartitions.cs",
+              "ToolTip": "X:\\source\\DiskManager\\DiskManager\\Helpers\\DiskManagerPartitions.cs",
+              "RelativeToolTip": "DiskManager\\Helpers\\DiskManagerPartitions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T17:21:27.088Z"
             }
           ]
         }

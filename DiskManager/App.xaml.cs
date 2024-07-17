@@ -1,50 +1,45 @@
-﻿using Microsoft.UI.Xaml;
-using Microsoft.UI.Xaml.Controls;
-using Microsoft.UI.Xaml.Controls.Primitives;
-using Microsoft.UI.Xaml.Data;
-using Microsoft.UI.Xaml.Input;
-using Microsoft.UI.Xaml.Media;
-using Microsoft.UI.Xaml.Navigation;
-using Microsoft.UI.Xaml.Shapes;
-using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Runtime.InteropServices.WindowsRuntime;
-using Windows.ApplicationModel;
-using Windows.ApplicationModel.Activation;
-using Windows.Foundation;
-using Windows.Foundation.Collections;
+﻿namespace DiskManager;
 
-// To learn more about WinUI, the WinUI project structure,
-// and more about our project templates, see: http://aka.ms/winui-project-info.
-
-namespace DiskManager
+public partial class App : Application
 {
-    /// <summary>
-    /// Provides application-specific behavior to supplement the default Application class.
-    /// </summary>
-    public partial class App : Application
+    public static Window CurrentWindow = Window.Current;
+    public IThemeService ThemeService { get; set; }
+    public IJsonNavigationViewService JsonNavigationViewService { get; set; }
+    public new static App Current => (App)Application.Current;
+    public string AppVersion { get; set; } = AssemblyInfoHelper.GetAssemblyVersion();
+    public string AppName { get; set; } = "DiskManager";
+    public App()
     {
-        /// <summary>
-        /// Initializes the singleton application object.  This is the first line of authored code
-        /// executed, and as such is the logical equivalent of main() or WinMain().
-        /// </summary>
-        public App()
+        this.InitializeComponent();
+        JsonNavigationViewService = new JsonNavigationViewService();
+        JsonNavigationViewService.ConfigDefaultPage(typeof(HomeLandingPage));
+        JsonNavigationViewService.ConfigSettingsPage(typeof(SettingsPage));
+    }
+
+    protected async override void OnLaunched(LaunchActivatedEventArgs args)
+    {
+        CurrentWindow = new Window();
+
+        CurrentWindow.AppWindow.TitleBar.ExtendsContentIntoTitleBar = true;
+        CurrentWindow.AppWindow.TitleBar.ButtonBackgroundColor = Colors.Transparent;
+
+        if (CurrentWindow.Content is not Frame rootFrame)
         {
-            this.InitializeComponent();
+            CurrentWindow.Content = rootFrame = new Frame();
         }
 
-        /// <summary>
-        /// Invoked when the application is launched.
-        /// </summary>
-        /// <param name="args">Details about the launch request and process.</param>
-        protected override void OnLaunched(Microsoft.UI.Xaml.LaunchActivatedEventArgs args)
-        {
-            m_window = new MainWindow();
-            m_window.Activate();
-        }
+        ThemeService = new ThemeService();
+        ThemeService.Initialize(CurrentWindow);
+        ThemeService.ConfigBackdrop();
+        ThemeService.ConfigElementTheme();
 
-        private Window m_window;
+        rootFrame.Navigate(typeof(MainPage));
+
+        CurrentWindow.Title = CurrentWindow.AppWindow.Title = $"{AppName} v{AppVersion}";
+        CurrentWindow.AppWindow.SetIcon("Assets/icon.ico");
+
+        CurrentWindow.Activate();
+        await DynamicLocalizerHelper.InitializeLocalizer("en-US");
     }
 }
+

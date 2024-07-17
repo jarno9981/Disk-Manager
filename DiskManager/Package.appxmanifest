@@ -8,16 +8,16 @@
   IgnorableNamespaces="uap rescap">
 
   <Identity
-    Name="1f8bbf8f-1ba3-4bb1-96f3-edd4a8a2cfd5"
+    Name="c4cc2fd5-ccbb-48b8-a6a8-d023dde41ea5"
     Publisher="CN=JPJM-"
     Version="1.0.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="1f8bbf8f-1ba3-4bb1-96f3-edd4a8a2cfd5" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="c4cc2fd5-ccbb-48b8-a6a8-d023dde41ea5" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
     <DisplayName>DiskManager</DisplayName>
     <PublisherDisplayName>JPJM-</PublisherDisplayName>
-    <Logo>Assets\StoreLogo.png</Logo>
+    <Logo>Assets\Store\StoreLogo.png</Logo>
   </Properties>
 
   <Dependencies>
@@ -37,10 +37,10 @@
         DisplayName="DiskManager"
         Description="DiskManager"
         BackgroundColor="transparent"
-        Square150x150Logo="Assets\Square150x150Logo.png"
-        Square44x44Logo="Assets\Square44x44Logo.png">
-        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" />
-        <uap:SplashScreen Image="Assets\SplashScreen.png" />
+        Square150x150Logo="Assets\Store\Square150x150Logo.png"
+        Square44x44Logo="Assets\Store\Square44x44Logo.png">
+        <uap:DefaultTile Wide310x150Logo="Assets\Store\Wide310x150Logo.png" />
+        <uap:SplashScreen Image="Assets\Store\SplashScreen.png" />
       </uap:VisualElements>
     </Application>
   </Applications>

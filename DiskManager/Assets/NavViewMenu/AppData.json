@@ -1,0 +1,47 @@
+﻿{
+  "Groups": [
+    {
+      "UniqueId": "DiskManager",
+      "Title": "DiskManager",
+      "ImagePath": "ms-appx:///Assets/icon.png",
+      "ImageIconPath": "ms-appx:///Assets/icon.png",
+      "IsSpecialSection": false,
+      "ShowItemsWithoutGroup": true,
+      "IsExpanded": false,
+      "Items": [
+        {
+          "UniqueId": "DiskManager.Views.HomeLandingPage",
+          "Title": "Home",
+          "Subtitle": "Home",
+          "ImagePath": "ms-appx:///Assets/icon.png",
+          "ImageIconPath": "ms-appx:///Assets/icon.png",
+          "HideItem": true
+        },
+        {
+          "UniqueId": "DiskManager.Views.FormatDrivePage",
+          "Title": "Format Drive",
+          "Subtitle": "Format The Drive Of Choice",
+          "ImagePath": "ms-appx:///Assets/format.png",
+          "ImageIconPath": "ms-appx:///Assets/format.png",
+          "HideItem": false
+        },
+        {
+          "UniqueId": "DiskManager.Views.CleanDrivePage",
+          "Title": "Clean Drive",
+          "Subtitle": "Clean The Drive Of Choice",
+          "ImagePath": "ms-appx:///Assets/clean.png",
+          "ImageIconPath": "ms-appx:///Assets/clean.png",
+          "HideItem": false
+        },
+        {
+          "UniqueId": "DiskManager.Views.DiskPartition",
+          "Title": "Partitions Drive",
+          "Subtitle": "Partition Specify Part Of Drive",
+          "ImagePath": "ms-appx:///Assets/partition.png",
+          "ImageIconPath": "ms-appx:///Assets/partition.png",
+          "HideItem": false
+        }
+      ]
+    }
+  ]
+}

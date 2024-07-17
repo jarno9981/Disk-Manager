@@ -1,63 +1,57 @@
-﻿using System;
-using System.Diagnostics;
-using System.Threading.Tasks;
-using System.Runtime.InteropServices;
-using System.IO;
+﻿using System.Diagnostics;
 
-namespace DiskManager.Helpers
+namespace DiskManager.Helpers;
+public class DiskManagerController
 {
-    public class DiskManagerController
+    public async Task<bool> CleanDriveAsync(string driveLetter, bool cleanWindowsTemp, bool cleanUserTemp, bool cleanRecycleBin, Action<string> updateProgress)
     {
-        public async Task<bool> CleanDriveAsync(string driveLetter, bool cleanWindowsTemp, bool cleanUserTemp, bool cleanRecycleBin, Action<string> updateProgress)
+        try
         {
-            try
+            if (cleanWindowsTemp)
             {
-                if (cleanWindowsTemp)
-                {
-                    await RunHiddenCommandAsync($"del /q/f/s %windir%\\Temp\\*.*", updateProgress);
-                }
-
-                if (cleanUserTemp)
-                {
-                    await RunHiddenCommandAsync($"del /q/f/s %temp%\\*.*", updateProgress);
-                }
-
-                if (cleanRecycleBin)
-                {
-                    await RunHiddenCommandAsync($"rd /s /q {driveLetter}\\$Recycle.Bin", updateProgress);
-                }
-
-                return true;
+                await RunHiddenCommandAsync($"del /q/f/s %windir%\\Temp\\*.*", updateProgress);
             }
-            catch (Exception ex)
+
+            if (cleanUserTemp)
             {
-                updateProgress($"Error: {ex.Message}");
-                return false;
+                await RunHiddenCommandAsync($"del /q/f/s %temp%\\*.*", updateProgress);
             }
+
+            if (cleanRecycleBin)
+            {
+                await RunHiddenCommandAsync($"rd /s /q {driveLetter}\\$Recycle.Bin", updateProgress);
+            }
+
+            return true;
         }
-
-        private Task RunHiddenCommandAsync(string command, Action<string> updateProgress)
+        catch (Exception ex)
         {
-            return Task.Run(() =>
-            {
-                var processInfo = new ProcessStartInfo("cmd.exe", "/c " + command)
-                {
-                    CreateNoWindow = true,
-                    UseShellExecute = false,
-                    RedirectStandardOutput = true,
-                    RedirectStandardError = true,
-                    Verb = "runas"
-                };
-
-                using (var process = Process.Start(processInfo))
-                {
-                    process.OutputDataReceived += (sender, e) => { if (!string.IsNullOrEmpty(e.Data)) updateProgress(e.Data); };
-                    process.ErrorDataReceived += (sender, e) => { if (!string.IsNullOrEmpty(e.Data)) updateProgress(e.Data); };
-                    process.BeginOutputReadLine();
-                    process.BeginErrorReadLine();
-                    process.WaitForExit();
-                }
-            });
+            updateProgress($"Error: {ex.Message}");
+            return false;
         }
+    }
+
+    private Task RunHiddenCommandAsync(string command, Action<string> updateProgress)
+    {
+        return Task.Run(() =>
+        {
+            var processInfo = new ProcessStartInfo("cmd.exe", "/c " + command)
+            {
+                CreateNoWindow = true,
+                UseShellExecute = false,
+                RedirectStandardOutput = true,
+                RedirectStandardError = true,
+                Verb = "runas"
+            };
+
+            using (var process = Process.Start(processInfo))
+            {
+                process.OutputDataReceived += (sender, e) => { if (!string.IsNullOrEmpty(e.Data)) updateProgress(e.Data); };
+                process.ErrorDataReceived += (sender, e) => { if (!string.IsNullOrEmpty(e.Data)) updateProgress(e.Data); };
+                process.BeginOutputReadLine();
+                process.BeginErrorReadLine();
+                process.WaitForExit();
+            }
+        });
     }
 }

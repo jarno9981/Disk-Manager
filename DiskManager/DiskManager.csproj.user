@@ -5,10 +5,49 @@
     <None Update="App.xaml">
       <SubType>Designer</SubType>
     </None>
-    <None Update="MainWindow.xaml">
+    <None Update="Package.appxmanifest">
       <SubType>Designer</SubType>
     </None>
-    <None Update="Package.appxmanifest">
+    <None Update="Themes\Converters.xaml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Update="Themes\Fonts.xaml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Update="Themes\Styles.xaml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Update="Themes\ThemeResources.xaml">
+      <SubType>Designer</SubType>
+    </None>
+    <Page Update="Views\DiskPartition.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\CleanDrivePage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\FormatDrivePage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <None Update="Views\HomeLandingPage.xaml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Update="Views\MainPage.xaml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Update="Views\SettingsPage.xaml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Update="Views\Settings\AboutUsSettingPage.xaml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Update="Views\Settings\GeneralSettingPage.xaml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Update="Views\Settings\ThemeSettingPage.xaml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Update="Views\UserControls\BreadcrumbBarUserControl.xaml">
       <SubType>Designer</SubType>
     </None>
   </ItemGroup>

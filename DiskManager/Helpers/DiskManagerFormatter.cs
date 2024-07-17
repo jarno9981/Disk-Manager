@@ -4,12 +4,11 @@ using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 
-
 namespace DiskManager.Helpers
 {
     public class DiskManagerFormatter
     {
-        public async Task<bool> FormatDriveAsync(string driveLetter, Action<string> progressCallback)
+        public async Task<bool> FormatDriveAsync(string driveLetter, string fileSystem, Action<string> progressCallback)
         {
             try
             {
@@ -25,8 +24,8 @@ namespace DiskManager.Helpers
                     throw new ArgumentException($"Drive '{driveLetter}' is not valid or accessible.");
                 }
 
-                // Format the drive (example: using DiskPart command line utility)
-                await RunDiskPartCommand(driveLetter);
+                // Format the drive using the specified file system
+                await RunDiskPartCommand(driveLetter, fileSystem);
 
                 progressCallback?.Invoke("Formatting completed.");
                 return true; // Return true for success
@@ -39,13 +38,32 @@ namespace DiskManager.Helpers
             }
         }
 
-        private Task RunDiskPartCommand(string driveLetter)
+        private Task RunDiskPartCommand(string driveLetter, string fileSystem)
         {
+            string formatCommand;
+            switch (fileSystem.ToLower())
+            {
+                case "ntfs":
+                    formatCommand = "format fs=ntfs quick";
+                    break;
+                case "fat":
+                    formatCommand = "format fs=fat quick";
+                    break;
+                case "fat32":
+                    formatCommand = "format fs=fat32 quick";
+                    break;
+                case "refs":
+                    formatCommand = "format fs=refs";
+                    break;
+                default:
+                    throw new ArgumentException($"Unsupported file system: {fileSystem}");
+            }
+
             // Example: Use Process.Start to run DiskPart command
             var startInfo = new ProcessStartInfo
             {
                 FileName = "diskpart.exe",
-                Arguments = $"/s {GenerateScriptFile(driveLetter)}",
+                Arguments = $"/s {GenerateScriptFile(driveLetter, formatCommand)}",
                 UseShellExecute = false,
                 RedirectStandardOutput = true,
                 CreateNoWindow = true
@@ -57,10 +75,10 @@ namespace DiskManager.Helpers
             return Task.CompletedTask;
         }
 
-        private string GenerateScriptFile(string driveLetter)
+        private string GenerateScriptFile(string driveLetter, string formatCommand)
         {
             string scriptContent = $"select volume {driveLetter}\n" +
-                                   $"format fs=ntfs quick\n" +
+                                   $"{formatCommand}\n" +
                                    $"assign letter={driveLetter}\n" +
                                    "exit\n";
 
