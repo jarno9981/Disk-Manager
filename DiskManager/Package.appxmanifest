@@ -5,7 +5,9 @@
   xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest"
   xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10"
   xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities"
-  IgnorableNamespaces="uap rescap">
+  xmlns:uap4="http://schemas.microsoft.com/appx/manifest/uap/windows10/4"
+  xmlns:iot="http://schemas.microsoft.com/appx/manifest/iot/windows10"
+  IgnorableNamespaces="uap rescap uap4 iot">
 
   <Identity
     Name="c4cc2fd5-ccbb-48b8-a6a8-d023dde41ea5"
@@ -48,5 +50,9 @@
   <Capabilities>
     <rescap:Capability Name="runFullTrust" />
     <rescap:Capability Name="allowElevation" />
+    <uap4:Capability Name="userDataTasks"/>
+    <uap:Capability Name="userAccountInformation"/>
+    <iot:Capability Name="systemManagement"/>
+    <uap:Capability Name="removableStorage"/>
   </Capabilities>
 </Package>

@@ -20,6 +20,9 @@
     <None Update="Themes\ThemeResources.xaml">
       <SubType>Designer</SubType>
     </None>
+    <Page Update="Views\FileSelectionDialog.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Views\DiskPartition.xaml">
       <SubType>Designer</SubType>
     </Page>

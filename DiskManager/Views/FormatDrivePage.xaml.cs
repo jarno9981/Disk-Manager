@@ -28,6 +28,7 @@ namespace DiskManager.Views
         {
             // Load drives only when the page is fully loaded
             DriveListView.ItemsSource = DriveInfo.GetDrives().Select(d => new DiskInfo { DisplayName = d.Name, FileSystem = d.DriveFormat });
+
             isPageLoaded = true;
         }
 
@@ -55,7 +56,7 @@ namespace DiskManager.Views
                 await ShowContentDialog("Drive formatted successfully.");
 
                 // Delay for 3 seconds
-                await Task.Delay(3000);
+                await Task.Delay(1250);
 
                 // Refresh the drive list
                 RefreshDriveList();

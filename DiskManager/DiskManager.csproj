@@ -12,7 +12,7 @@
     <PublishProfile>win-$(Platform).pubxml</PublishProfile>
     <UseWinUI>true</UseWinUI>
     <EnableMsixTooling>true</EnableMsixTooling>
-    <Version>1.0.0</Version>
+    <Version>1.0.1</Version>
     <ImplicitUsings>true</ImplicitUsings>
     <LangVersion>Latest</LangVersion>
     <ApplicationIcon>Assets\icon.ico</ApplicationIcon>
@@ -40,6 +40,7 @@
   <ItemGroup>
     <None Remove="Views\CleanDrivePage.xaml" />
     <None Remove="Views\DiskPartition.xaml" />
+    <None Remove="Views\FileSelectionDialog.xaml" />
     <None Remove="Views\FormatDrivePage.xaml" />
   </ItemGroup>
   <ItemGroup>
@@ -63,6 +64,11 @@
     <PackageReference Include="WinUICommunity.Core" Version="6.9.0" />
     <PackageReference Include="WinUICommunity.LandingPages" Version="6.9.0" />
     <PackageReference Include="WinUIEx" Version="2.3.4" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Views\FileSelectionDialog.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Page Update="Views\DiskPartition.xaml">

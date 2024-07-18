@@ -27,7 +27,8 @@ namespace DiskManager.Views
             DriveListView.ItemsSource = DriveInfo.GetDrives().Select(d => new DiskInfo
             {
                 DisplayName = d.Name,
-                StorageGB = $"{(d.TotalSize - d.TotalFreeSpace) / (1024 * 1024 * 1024)} GB"
+                StorageGB = $"{(d.TotalSize - d.TotalFreeSpace) / (1024 * 1024 * 1024)}",
+                TotalStorageGB = $"{d.TotalSize / (1024 * 1024 * 1024)}"
             }).ToList();
         }
 
@@ -41,20 +42,27 @@ namespace DiskManager.Views
 
             string driveLetter = ((DiskInfo)DriveListView.SelectedItem).DisplayName;
 
-            bool cleanWindowsTemp = TempCheckBox.IsChecked == true;
-            bool cleanUserTemp = UserTempCheckBox.IsChecked == true;
-            bool cleanRecycleBin = RecycleBinCheckBox.IsChecked == true;
-
-            AddProgressMessage("Cleaning drive...");
-            bool result = await driveCleaner.CleanDriveAsync(driveLetter, cleanWindowsTemp, cleanUserTemp, cleanRecycleBin, UpdateProgress);
-
-            if (result)
+            if (driveLetter.Equals("C:\\", StringComparison.OrdinalIgnoreCase))
             {
-                await ShowContentDialog("Drive cleaned successfully.");
+                bool cleanWindowsTemp = TempCheckBox.IsChecked == true;
+                bool cleanUserTemp = UserTempCheckBox.IsChecked == true;
+                bool cleanRecycleBin = RecycleBinCheckBox.IsChecked == true;
+
+                AddProgressMessage("Cleaning drive...");
+                bool result = await driveCleaner.CleanDriveAsync(driveLetter, cleanWindowsTemp, cleanUserTemp, cleanRecycleBin, UpdateProgress);
+
+                if (result)
+                {
+                    await ShowContentDialog("Drive cleaned successfully.");
+                }
+                else
+                {
+                    await ShowContentDialog("Failed to clean the drive.");
+                }
             }
             else
             {
-                await ShowContentDialog("Failed to clean the drive.");
+                await ShowFileSelectionDialog(driveLetter);
             }
         }
 
@@ -90,6 +98,49 @@ namespace DiskManager.Views
             };
 
             await dialog.ShowAsync();
+        }
+
+        private async Task ShowFileSelectionDialog(string driveLetter)
+        {
+            try
+            {
+                var files = Directory.GetFiles(driveLetter, "*", SearchOption.AllDirectories)
+                                    .Where(file => !file.StartsWith(driveLetter + "\\"));
+                FileSelectionDialog fileSelectionDialog = new FileSelectionDialog(files.ToArray());
+                fileSelectionDialog.XamlRoot = this.Content.XamlRoot;
+                await fileSelectionDialog.ShowAsync();
+            }
+            catch (UnauthorizedAccessException)
+            {
+                await ShowContentDialog($"Access denied to system folders on drive {driveLetter}.");
+            }
+            catch (Exception ex)
+            {
+                await ShowContentDialog($"Error: {ex.Message}");
+            }
+        }
+
+        private Task DeleteSelectedFilesAsync(List<string> selectedFiles)
+        {
+            return Task.Run(() =>
+            {
+                foreach (var file in selectedFiles)
+                {
+                    try
+                    {
+                        File.Delete(file);
+                    }
+                    catch (Exception ex)
+                    {
+                        AddProgressMessage($"Error deleting {file}: {ex.Message}");
+                    }
+                }
+            });
+        }
+
+        private void FileSelectionDialog_PrimaryButtonClick(ContentDialog sender, ContentDialogButtonClickEventArgs args)
+        {
+            // Handle primary button click if necessary
         }
     }
 }
