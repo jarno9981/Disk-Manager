@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\JPJM-\\source\\repos\\Disk-Manager\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{39F896B5-581A-4140-8153-71B8255FCEE4}|DiskManager\\DiskManager.csproj|c:\\users\\jpjm-\\source\\repos\\disk-manager\\diskmanager\\views\\cleandrivepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{39F896B5-581A-4140-8153-71B8255FCEE4}|DiskManager\\DiskManager.csproj|solutionrelative:diskmanager\\views\\cleandrivepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39F896B5-581A-4140-8153-71B8255FCEE4}|DiskManager\\DiskManager.csproj|c:\\users\\jpjm-\\source\\repos\\disk-manager\\diskmanager\\helpers\\imagehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39F896B5-581A-4140-8153-71B8255FCEE4}|DiskManager\\DiskManager.csproj|solutionrelative:diskmanager\\helpers\\imagehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{39F896B5-581A-4140-8153-71B8255FCEE4}|DiskManager\\DiskManager.csproj|c:\\users\\jpjm-\\source\\repos\\disk-manager\\diskmanager\\package.appxmanifest||{4D47164B-07B6-4A52-A855-728D6A2E2AA3}",
       "RelativeMoniker": "D:0:0:{39F896B5-581A-4140-8153-71B8255FCEE4}|DiskManager\\DiskManager.csproj|solutionrelative:diskmanager\\package.appxmanifest||{4D47164B-07B6-4A52-A855-728D6A2E2AA3}"
     },
@@ -22,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,7 +46,33 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ImageHelper.cs",
+              "DocumentMoniker": "C:\\Users\\JPJM-\\source\\repos\\Disk-Manager\\DiskManager\\Helpers\\ImageHelper.cs",
+              "RelativeDocumentMoniker": "DiskManager\\Helpers\\ImageHelper.cs",
+              "ToolTip": "C:\\Users\\JPJM-\\source\\repos\\Disk-Manager\\DiskManager\\Helpers\\ImageHelper.cs",
+              "RelativeToolTip": "DiskManager\\Helpers\\ImageHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T17:12:53.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "CleanDrivePage.xaml",
+              "DocumentMoniker": "C:\\Users\\JPJM-\\source\\repos\\Disk-Manager\\DiskManager\\Views\\CleanDrivePage.xaml",
+              "RelativeDocumentMoniker": "DiskManager\\Views\\CleanDrivePage.xaml",
+              "ToolTip": "C:\\Users\\JPJM-\\source\\repos\\Disk-Manager\\DiskManager\\Views\\CleanDrivePage.xaml*",
+              "RelativeToolTip": "DiskManager\\Views\\CleanDrivePage.xaml*",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-19T17:11:35.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Package.appxmanifest",
               "DocumentMoniker": "C:\\Users\\JPJM-\\source\\repos\\Disk-Manager\\DiskManager\\Package.appxmanifest",
               "RelativeDocumentMoniker": "DiskManager\\Package.appxmanifest",
@@ -50,7 +84,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "GlobalUsings.cs",
               "DocumentMoniker": "C:\\Users\\JPJM-\\source\\repos\\Disk-Manager\\DiskManager\\GlobalUsings.cs",
               "RelativeDocumentMoniker": "DiskManager\\GlobalUsings.cs",
@@ -63,7 +97,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "DiskManager",
               "DocumentMoniker": "C:\\Users\\JPJM-\\source\\repos\\Disk-Manager\\DiskManager\\DiskManager.csproj",
               "RelativeDocumentMoniker": "DiskManager\\DiskManager.csproj",
