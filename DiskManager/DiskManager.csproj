@@ -33,6 +33,8 @@
   <ItemGroup>
     <Content Remove="Assets\cdrive.png" />
     <Content Remove="Assets\clean.png" />
+    <Content Remove="Assets\diskclean.png" />
+    <Content Remove="Assets\diskssd.png" />
     <Content Remove="Assets\drive.png" />
     <Content Remove="Assets\format.png" />
     <Content Remove="Assets\partition.png" />
